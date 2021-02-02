@@ -1,14 +1,12 @@
-from typing import List
-
-from ...struct.base import Entity
+from typing import List, Tuple
 
 
 class EastMoney:
     def __init__(self):
         pass
     
-    def get_all_entities(self) -> List[Entity]:
+    def get_all_fund_ids(self) -> List[str]:
         pass
     
-    def get_entity_by_id(self, eid: int):
+    def get_history_by_fund_id(self, fund_id: str) -> List[Tuple]:
         pass
